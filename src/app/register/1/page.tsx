@@ -19,7 +19,7 @@ export default function DadosForm() {
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    router.push("/register/enderecoform");
+    router.push("/register/2");
     console.log("Register");
   };
 
