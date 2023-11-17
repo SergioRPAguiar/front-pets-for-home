@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import cat from "../../imgs/gato1.png";
+import ftcadastro from "../../imgs/ftcadastro.png";
 import { ButtonDestructive } from "@/app/components/ui/button/Button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -30,7 +30,7 @@ export default function DadosForm() {
       <div className="">
         <Image
           className="rounded-xl  mr-1 border-purple-700 border-4"
-          src={cat}
+          src={ftcadastro}
           width={0}
           height={447}
           alt={"User avatar"}
